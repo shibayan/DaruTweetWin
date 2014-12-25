@@ -1,0 +1,13 @@
+﻿<Window x:Class="DaruTweet.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="450" Width="720"
+        AllowsTransparency="True" WindowStyle="None" Background="Transparent" Topmost="True"
+        Loaded="Window_Loaded" MouseLeftButtonDown="Window_MouseLeftButtonDown" MouseDoubleClick="Window_MouseDoubleClick">
+    <Canvas>
+        <Border CornerRadius="15" Background="White" BorderBrush="Black" BorderThickness="1" Width="400" Height="160" Canvas.Top="0">
+            <TextBlock Margin="20" FontSize="18" Text="おっさん" TextWrapping="Wrap" FontFamily="Meiryo" x:Name="textBlock"></TextBlock>
+        </Border>
+        <Image Source="Resources/yanagi.png" Height="419" Canvas.Bottom="0" Canvas.Right="0" />
+    </Canvas>
+</Window>
